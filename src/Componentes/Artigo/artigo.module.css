@@ -1,0 +1,19 @@
+.artigo{
+    width: 100vw;
+    background-image: url('../../assets/images/bg-02.jpg');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    padding: 3rem 0;
+}
+
+.conteudo__artigo{
+    flex-direction: column;
+    padding-left: 50%;
+    color: white;
+    padding-right: 5%;
+}
+
+.conteudo__artigo p{
+    text-align: justify;
+}
