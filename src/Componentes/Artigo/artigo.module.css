@@ -17,3 +17,17 @@
 .conteudo__artigo p{
     text-align: justify;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .conteudo__artigo{
+        padding: 2.5rem;
+    }
+}
+
+
+/*Reponsividade mobile*/
+@media only screen and (max-width: 767px) {
+    .conteudo__artigo{
+        padding: 1.5rem;
+    }
+}
