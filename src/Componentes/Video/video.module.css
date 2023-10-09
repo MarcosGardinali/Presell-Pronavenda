@@ -1,0 +1,27 @@
+.video {
+    border: none;
+    top: 0;
+    left: 0;
+    width: 560px;
+    height: 315px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .video {
+        margin-top: 25%;
+        margin-bottom: 10%;
+        height: 337.5px;
+        width: 600px;
+    }
+}
+
+
+/*Reponsividade mobile*/
+@media only screen and (max-width: 767px) {
+    .video {
+        margin-top: 15%;
+        margin-bottom: 10%;
+        height: 180px;
+        width: 320px;
+    }
+}
