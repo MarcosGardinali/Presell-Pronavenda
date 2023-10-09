@@ -8,8 +8,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: url(https://pronavenda.com.br/wp-content/uploads/2023/02/bg01.jpg);
+  background-position: top center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
   overflow-x: hidden;
 }
 
@@ -29,4 +30,10 @@ body::-webkit-scrollbar {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  body{
+      background-size: cover;
+  }
 }
